@@ -1,11 +1,11 @@
 ## VERTIGO GAMES DEMO PROJECT
 
-## DEFINITION
+### DEFINITION
 You are going to prepare a game where the player tries to rotate hexagonal tiles in order to create certain patterns. The game we want already exists, designed by Alexey Pajitnov is also known as the creator of Tetris. You can find the example game in the store:
 
 https://play.google.com/store/apps/details?id=com.rippalka.hexfall&hl=en
 
-## REQUIREMENTS
+### REQUIREMENTS
 * The demo will be tested on the builded apk file.
 * Project name Should be Hexagon+YourName. Example: “HexagonBuket”
 * The core mechanic should be provided: Select a hexagonal group and turn them clockwise or counterclockwise. If a 3-hexagonal group of the same color occurs, they should be exploded, if not the hexagonal pieces should return to the initial state.
