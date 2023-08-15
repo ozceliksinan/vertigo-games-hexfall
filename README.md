@@ -1,4 +1,4 @@
-# VERTIGO DEMO PROJECT
+## VERTIGO GAMES DEMO PROJECT
 
 ## DEFINITION
 You are going to prepare a game where the player tries to rotate hexagonal tiles in order to create certain patterns. The game we want already exists, designed by Alexey Pajitnov is also known as the creator of Tetris. You can find the example game in the store:
