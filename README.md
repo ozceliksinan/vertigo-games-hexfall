@@ -29,7 +29,3 @@ Your project will be reviewed on these conditions, please read carefully:
 * Codebase architecture according to features requested.
 
 The duration of the project is 5 days
-
-Contact e-mail for any question: info@sinanozcelik.com
-
-For more: sinanozcelik.com
