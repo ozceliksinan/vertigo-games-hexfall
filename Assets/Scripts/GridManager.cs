@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class GridManager : SuperClass
 {
     public static GridManager instance = null;
-
     public GameObject hexPrefab;
     public GameObject hexParent;
     public GameObject outParent;
     public Sprite outlineSprite;
     public Sprite hexagonSprite;
-
     private int gridWidth;
     private int gridHeight;
     private int selectionStatus;
@@ -25,7 +23,6 @@ public class GridManager : SuperClass
     private List<Hexagon> selectedGroup;
     private List<Hexagon> bombs;
     private List<Color> colorList;
-
     private bool gameInitializiationStatus;
     private bool hexagonRotationStatus;
     private bool hexagonExplosionStatus;
@@ -37,12 +34,10 @@ public class GridManager : SuperClass
         {
             instance = this;
         }
-
         else
         {
             Destroy(this);
         }
-
     }
 
     void Start()
@@ -81,7 +76,6 @@ public class GridManager : SuperClass
             selectedPosition.y = selectedHexagon.GetY();
             selectionStatus = 0;
         }
-
         else
         {
             selectionStatus = (++selectionStatus) % SELECTION_STATUS_COUNT;
@@ -358,8 +352,6 @@ public class GridManager : SuperClass
     }
     #endregion
 
-
-
     #region OutlineMethods
     private void DestructOutline()
     {
@@ -468,8 +460,6 @@ public class GridManager : SuperClass
 
         return returnValue;
     }
-
-
 
     #region GeneralHelpers
     public bool OnStepper(int x)

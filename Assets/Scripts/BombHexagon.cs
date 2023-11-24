@@ -4,8 +4,7 @@ public class BombHexagon : Hexagon
 {
     public TextMesh output;
     private int clock;
-
-
+    
     public void Tick()
     {
         --clock;
